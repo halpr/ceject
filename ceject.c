@@ -1,5 +1,5 @@
 /*
- * Ejectd - External Drive Ejector
+ * Ceject - External Drive Ejector
  * Author: Filipe Soares
  * GitHub: https://github.com/halpr
  * License: MIT
@@ -53,7 +53,7 @@ typedef struct {
 // Display header
 void show_header(void) {
     system("clear");
-    printf("\n%s%s%sEjectd %s External Drive Ejector%s\n", 
+    printf("\n%s%s%sCeject %s External Drive Ejector%s\n", 
            BOLD, MAGENTA, ICON_EJECT, ICON_EJECT, NC);
     printf("%sSafe removal tool for external drives%s\n\n", DIM, NC);
 }
